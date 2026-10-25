@@ -4,18 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>BAHISA · Tarjeta de fin de año</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500&display=swap">
-<link rel="stylesheet" href="./css/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <canvas id="fx" aria-hidden="true"></canvas>
- 
+
 <div id="scaler"><div class="stage"><div class="float">
   <div class="card" id="card">
     <div class="face front" id="front">
       <svg class="frame" aria-hidden="true"><rect x="0" y="0" width="100%" height="100%" rx="4"/></svg>
+      <p class="sub" style="align-self:start">GASODUCTOS</p>
       <div class="mid">
-        <img class="lg" src="./imagenes/Imagen_Bahisa.png" alt="BAHISA" width="393" height="275">
+        <img class="lg" src="imagenes/Imagen_Bahisa.png" alt="BAHISA" width="393" height="275">
         <h2 class="tit">Felices<span>Fiestas</span></h2>
         <button class="btn" id="open" type="button">ABRIR TARJETA</button>
       </div>
@@ -25,16 +28,16 @@
       <svg class="frame" aria-hidden="true"><rect x="0" y="0" width="100%" height="100%" rx="4" style="stroke:var(--white);opacity:.5;animation:none;stroke-dashoffset:0"/></svg>
       <div class="yr in" style="--i:0" role="img" aria-label="2027"><span class="d">2</span><span class="d">0</span><span class="d">2</span><span class="d"><span class="roll"><span>6</span><span>7</span></span></span></div>
       <h1 class="in" style="--i:1">Gracias por un año de trabajo en conjunto.</h1>
-      <p class="in" style="--i:2">A nuestros clientes y proveedores: por un año de trabajo juntos y por acompañarnos en cada tramo.</p>
+      <p class="in" style="--i:2">A nuestros clientes y proveedores: gracias por la confianza y por acompañarnos en cada tramo.</p>
       <p class="in" style="--i:3">Les deseamos felices fiestas y un 2027 con nuevos proyectos para encarar juntos.</p>
-      <div class="sign in" style="--i:4">Alejandra Satelle - Dto Compras</div>
+      <div class="sign in" style="--i:4">EL EQUIPO DE BAHISA</div>
       <svg class="line in" style="--i:5;margin-top:14px" viewBox="0 0 300 40" preserveAspectRatio="none" aria-hidden="true"><path class="t" id="pp" d="M0 20H70V8H170V32H230V20H300"/><path class="f" d="M0 20H70V8H170V32H230V20H300"/><circle r="6" fill="#f6f0ed"><animateMotion dur="3s" repeatCount="indefinite"><mpath href="#pp"/></animateMotion></circle></svg>
       <button class="btn ghost" id="close" type="button">VOLVER A CERRAR</button>
     </div>
   </div>
 </div></div></div>
 <div class="hint" id="hint">Tocá la tarjeta para abrirla</div>
- 
-<script src="./java/script.js"></script>
+
+<script src="java/script.js"></script>
 </body>
 </html>

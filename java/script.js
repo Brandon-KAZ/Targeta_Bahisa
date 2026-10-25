@@ -1,4 +1,3 @@
-
 (function(){
   var card=document.getElementById('card'),hint=document.getElementById('hint'),sc=document.getElementById('scaler');
   function fit(){var z=Math.min(innerWidth*.94/420,(innerHeight-56)/620,1.9);z=Math.max(z,.5);sc.style.zoom=z;var h=Math.round((innerHeight-56)/z);card.style.setProperty('--ch',Math.max(600,Math.min(h,760))+'px')}
@@ -23,4 +22,3 @@
     x.globalAlpha=1;requestAnimationFrame(t);
   })();
 })();
- 
